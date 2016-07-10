@@ -4,6 +4,7 @@ var keystone = require('keystone'),
 var Photo = new keystone.List('Photo');
  
 Photo.add({
+    name: { type: String, initial: true, required: true },
     link: { type: String, initial: true, required: true },
     student: { type: Types.Relationship, ref: 'Student', initial: true },
     caption: { type: String, initial: true }
