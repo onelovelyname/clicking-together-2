@@ -10,7 +10,8 @@ Team.add({
     website: { type: String, initial: true },
     twitter: { type: String, initial: true },
     instagram: { type: String, initial: true },
-    order: { type: Number, required: true, initial: true }
+    order: { type: Number, required: true, initial: true },
+    photo: { type: String, initial: true }
 });
  
 Team.register();
