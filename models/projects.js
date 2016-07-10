@@ -6,6 +6,7 @@ var Project = new keystone.List('Project');
 Project.add({
     title: { type: String, initial: true, required: true, index: true },
     year: { type: Number, required: true, initial: true },
+    cover: { type: String, required: true, initial: true },
     description: { type: String, initial: true },
     students: { 
       1: { type: Types.Relationship, ref: 'Student', initial: true },
