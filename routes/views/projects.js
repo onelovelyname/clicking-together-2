@@ -1,16 +1,17 @@
 var keystone = require('keystone'),
     Project = keystone.list('Project');
-
+ 
 exports = module.exports = function(req, res) {
     
     var view = new keystone.View(req, res);
-    
+    var name = req.params.name;
+
     Project.model.find()
-    .where('year', 2013)
-    .populate('student cover')
-    .exec(function(error, projects) {
-      console.log("projects: ", projects);
-      view.render('camp2013', { projects: projects });
+    .where('title', name)
+    .populate('photo student')
+    .exec(function(error, project) {
+      console.log("project: ", project);
+      view.render('project', project[0]);
     });
     
 }
