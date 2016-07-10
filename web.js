@@ -19,7 +19,7 @@ keystone.init({
   }).engine,
   
   'auto update': true,
-  'mongo': process.env.MONGO_URI || "mongodb://localhost/clicking-together", 
+  'mongo': process.env.MONGODB_URI || "mongodb://localhost/clicking-together", 
   'session': true,
   'auth': true,
   'user model': 'User',
