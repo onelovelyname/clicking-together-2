@@ -4,8 +4,8 @@ var keystone = require('keystone'),
 var Student = new keystone.List('Student');
  
 Student.add({
-    name: { type: Types.Name, initial: true, required: true, index: true },
-    school: { type: String, initial: true, required: true },
+    name: { type: String, initial: true, required: true, index: true },
+    school: { type: String, initial: true },
 });
  
 Student.register();
