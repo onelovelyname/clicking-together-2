@@ -26,6 +26,8 @@ keystone.init({
   'cookie secret': 'UoS(g,yj2WD"b#WNB%drWesp-P4S'
   
 });
+
+console.log("Hello");
  
 require('./models');
  
