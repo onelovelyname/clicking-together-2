@@ -17,8 +17,7 @@ keystone.init({
     defaultLayout: 'default',
     extname: '.hbs',
     helpers: { if_contains: function(a, b, opts) {
-        console.log("a: ", a);
-        if (a && a.includes(b)) {
+        if (a && typeof a == "string" && a.includes(b)) {
             return opts.fn(this);
         } else {
             return opts.inverse(this);
