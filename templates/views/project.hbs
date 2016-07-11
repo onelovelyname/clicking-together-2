@@ -1,7 +1,7 @@
 <h1>{{title}}</h1>
 
 {{#each this}}
-  {{#if_contains @key 'photo'}}
+  {{#if_indexOf @key 'photo'}}
     {{> photo}}
-  {{/if_contains}}
+  {{/if_indexOf}}
 {{/each}}
