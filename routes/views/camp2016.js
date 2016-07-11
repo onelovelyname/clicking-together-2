@@ -6,9 +6,10 @@ exports = module.exports = function(req, res) {
     var view = new keystone.View(req, res);
     
     Project.model.find()
-    .populate('student cover')
+    .where('year', 2016)
+    .populate('cover student1')
     .exec(function(error, projects) {
-      console.log("projects all: ", projects);
+      console.log("projects: ", projects);
       view.render('camp2016', { projects: projects });
     });
     
