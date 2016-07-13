@@ -36,6 +36,29 @@ nav li {
   color: rgb(255, 255, 255);
 }
 
-.intro-text {
-  
+img.div-fill {
+    object-fit: cover;
+    height: 200px;
+    width: 300px;
+}
+
+.narrow {
+  padding: 5px !important;
+}
+
+.student-photo {
+  width: 75px;
+}
+
+.student-header {
+  margin-top: 5px;
+}
+
+.inline-parent {
+  display: inline-block;
+}
+
+.inline-child {
+  display: inline-block;
+  vertical-align: top;
 }
