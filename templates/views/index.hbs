@@ -1,5 +1,21 @@
-<div class="content">
-  <h2>Using photography to help young citizens transcend boundaries of difference and prejudice.</h2>
-  <h3>We aim for our students to see their lives, their cities, and the different communities within their cities from broader perspectives.</h3>
-  <a href="/about"><button class="btn btn-primary" type="submit">Read More</button></a>
+<div class="content" style="height:100%">
+  <div class="photos">
+    {{#each students}}
+    <div class="photo" style="background-image:url({{photo}});"></div>
+    {{/each}}
+    {{#each students}}
+    <div class="photo" style="background-image:url({{photo}});"></div>
+    {{/each}}
+    {{#each students}}
+    <div class="photo" style="background-image:url({{photo}});"></div>
+    {{/each}}
+    {{#each students}}
+    <div class="photo" style="background-image:url({{photo}});"></div>
+    {{/each}}
+  </div>
+  <div class="intro" style="height:100%">
+    <h2>Using photography to help young citizens transcend boundaries of difference and prejudice.</h2>
+    <h3>We aim for our students to see their lives, their cities, and the different communities within their cities from broader perspectives.</h3>
+    <a href="/about"><button class="btn btn-primary" type="submit">Read More</button></a>
+  </div>
 </div>
