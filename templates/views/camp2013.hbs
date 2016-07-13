@@ -7,6 +7,8 @@
 <p> Each student was paired with a buddy, whom they shared a camera with. They visited each other’s neighborhoods and were challenged to tell their buddies’ stories in five photos. They went on an overnight retreat in the Kasauli hills with students from outside Ambala. The photographs exhibited culminated in four key themes: the Kasauli retreat, Ambala’s market Sadar Bazaar, Beauty in their lives, and Someone they love.</p>
 </div>
 
-{{#each projects}}
-  {{> projects_preview }}
-{{/each}}
+<div class="col-xs-12 col-sm-6 col-md-4">
+  {{#each projects}}
+    {{> projects_preview child=this parent=..}}
+  {{/each}}
+</div>

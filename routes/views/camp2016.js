@@ -10,7 +10,7 @@ exports = module.exports = function(req, res) {
     .populate('cover student1')
     .exec(function(error, projects) {
       console.log("projects: ", projects);
-      view.render('camp2016', { projects: projects });
+      view.render('camp2016', { projects: projects, camp: 'camp2016' });
     });
     
 }
