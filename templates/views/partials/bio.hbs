@@ -1,22 +1,21 @@
 <div class="col-xs-12 col-sm-6 col-md-4">
   
-  <h2>{{name.first}} {{name.last}}</h2>
-  <h3>{{title}}</h3>
-
+  <h3>{{name.first}} {{name.last}}</h3>
+  <h4>{{title}}</h4>
   {{#if linkedin}}
-    <h4>{{linkedin}}</h4>
+    <a href={{linkedin}}><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
   {{/if}}
 
   {{#if website}}
-    <h4>{{website}}</h4>
+    <a href={{website}}><i class="fa fa-code fa-2x" aria-hidden="true"></i></a>
   {{/if}}
 
   {{#if twitter}}
-    <h4>{{twitter}}</h4>
+    <a href={{twitter}}><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
   {{/if}}
 
   {{#if instagram}}
-    <h4>{{instagram}}</h4>
+    <a href={{instagram}}><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
   {{/if}}
 
   {{#if photo}}
