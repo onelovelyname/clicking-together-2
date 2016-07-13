@@ -36,7 +36,7 @@ nav li {
   color: rgb(255, 255, 255);
 }
 
-img.div-fill {
+img.project-photo {
     object-fit: cover;
     height: 200px;
     width: 300px;
@@ -48,6 +48,8 @@ img.div-fill {
 
 .student-photo {
   width: 75px;
+  height: 75px;
+  object-fit: cover;
 }
 
 .student-header {

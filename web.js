@@ -16,13 +16,22 @@ keystone.init({
     partialsDir: 'templates/views/partials',
     defaultLayout: 'default',
     extname: '.hbs',
-    helpers: { if_indexOf: function(a, b, opts) {
+    helpers: { 
+      if_indexOf: function(a, b, opts) {
         if (a && typeof a == "string" && a.indexOf(b) !== -1) {
             return opts.fn(this);
         } else {
             return opts.inverse(this);
         }
-    }},
+    },
+    if_equal: function(a, b, opts) {
+        if (a == b) {
+            return opts.fn(this);
+        } else {
+            return opts.inverse(this);
+        }
+    }
+  },
   }).engine,
   
   'auto update': true,
