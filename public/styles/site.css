@@ -1,5 +1,6 @@
 html, body { 
   height:100%; 
+  font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 .max-width {
@@ -63,4 +64,8 @@ img.project-photo {
 .inline-child {
   display: inline-block;
   vertical-align: top;
+}
+
+.logo {
+  width: 250px;
 }
