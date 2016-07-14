@@ -10,8 +10,10 @@
 
 <p>{{description}}</p>
 
+<div class="parent-photos">
 {{#each this}}
   {{#if_indexOf @key 'photo'}}
     {{> photo}}
   {{/if_indexOf}}
 {{/each}}
+</div>
