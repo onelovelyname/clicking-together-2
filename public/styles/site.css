@@ -67,10 +67,10 @@ nav li {
   text-align: center;
 }
 
-img.project-photo {
+.project-photo {
     object-fit: cover;
     height: 200px;
-    width: 300px;
+    width: 100%;
 }
 
 .narrow {
@@ -103,19 +103,14 @@ img.project-photo {
 .parent-preview {
   position: relative;
   height: 200px;
-  width: 300px;
+  padding: 0px;
+  margin: 5px;
 }
 
 .image-preview-div {
   position: absolute;
   z-index: 1;
   width: 100%;
-}
-
-.bio-image {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
 }
 
 .image-preview-img {
