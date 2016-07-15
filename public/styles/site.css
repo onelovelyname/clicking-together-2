@@ -16,6 +16,10 @@ a:hover {
     color: #CE5B1C;
 }
 
+a:visited {
+    color: #CE5B1C;
+}
+
 .max-width {
   max-width: 100%;
 }
