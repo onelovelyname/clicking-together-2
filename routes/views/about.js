@@ -6,6 +6,7 @@ exports = module.exports = function(req, res) {
     var view = new keystone.View(req, res);
     
     Team.model.find()
+    .sort('order')
     .exec(function(error, members) {
       view.render('about', { team: members });
     });

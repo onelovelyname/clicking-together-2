@@ -8,6 +8,14 @@ h1.title {
   color: rgb(255,255,255);
 }
 
+a {
+  color: #CE5B1C;
+}
+
+a:hover {
+    color: #CE5B1C;
+}
+
 .max-width {
   max-width: 100%;
 }
@@ -16,8 +24,15 @@ h1.title {
   max-height: 100%;
 }
 
+nav ul {
+  padding: 0px;
+  text-align: center;
+}
+
 nav li {
   list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .content {
@@ -94,11 +109,18 @@ img.project-photo {
 .image-preview-div {
   position: absolute;
   z-index: 1;
+  width: 100%;
+}
+
+.bio-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .image-preview-img {
   object-fit: cover;
-  width: 300px;
+  width: 100%;
   height: 200px;
   border-radius: 5px;
 }
