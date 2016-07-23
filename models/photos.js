@@ -7,7 +7,8 @@ Photo.add({
     name: { type: String, initial: true, required: true },
     link: { type: String, initial: true, required: true },
     student: { type: Types.Relationship, ref: 'Student', initial: true },
-    caption: { type: String, initial: true }
+    caption: { type: String, initial: true },
+    order: { type: Number, required: true, initial: true }
 });
  
 Photo.register();
