@@ -21,10 +21,4 @@ $(document).ready(function() {
     }
   );
 
-  // $('.parent-photos').masonry({
-  //   // options
-  //   itemSelector: '.child-photo',
-  //   columnWidth: 200
-  // });
-
 });
