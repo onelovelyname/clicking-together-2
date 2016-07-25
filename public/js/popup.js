@@ -12,13 +12,19 @@ $(document).ready(function() {
   });
 
 
-$('.link-preview').hover(
-  function () {
-    $(this).addClass("hover");
-  },
-  function () {
-    $(this).removeClass("hover");
-  }
-);
+  $('.link-preview').hover(
+    function () {
+      $(this).addClass("hover");
+    },
+    function () {
+      $(this).removeClass("hover");
+    }
+  );
+
+  // $('.parent-photos').masonry({
+  //   // options
+  //   itemSelector: '.child-photo',
+  //   columnWidth: 200
+  // });
 
 });

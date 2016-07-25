@@ -76,10 +76,6 @@ nav li {
     width: 100%;
 }
 
-.narrow {
-  padding: 5px !important;
-}
-
 .student-photo {
   width: 75px;
   height: 75px;
@@ -101,6 +97,10 @@ nav li {
 
 .logo {
   width: 100%;
+}
+
+.child-photo {
+  padding: 6px 3px !important;
 }
 
 .parent-preview {
