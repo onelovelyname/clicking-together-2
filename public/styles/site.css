@@ -45,6 +45,10 @@ nav li {
   padding: 10px;
 }
 
+/*nav.header {
+  background-color: rgb(0,0,0)
+}*/
+
 .content {
   position: relative;
 }
@@ -113,18 +117,18 @@ nav li {
   position: relative;
   height: 200px;
   padding: 0px;
-  margin: 5px;
+  margin-top: 5px;
 }
 
 .image-preview-div {
   position: absolute;
   z-index: 1;
-  width: 100%;
+  width: 98%;
 }
 
 .image-preview-img {
   object-fit: cover;
-  width: 100%;
+  width: 98%;
   height: 200px;
   border-radius: 5px;
 }

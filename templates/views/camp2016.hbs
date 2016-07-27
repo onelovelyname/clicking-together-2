@@ -1,8 +1,11 @@
-<div>
-<h1>Camp 2016</h1>
-<p>In 2016, the Clicking Together team returned to Ambala to work with the same group of youths in an effort to further the foundation of empathy and friendship among the students built three years ago. Each student chose their own topics for the final projects, where they exhibited a set of 8 to 12 photos. The final exhibition is the result of stories that the students put their hearts into telling, and is a presentation of their passion and empathy. We are proud to showcase this work today. 
-</p>
+<section class="mission col-xs-12 col-sm-3 col-md-3">
+  <h1>Camp 2016</h1>
+  <p>In 2016, the Clicking Together team returned to Ambala to work with the same group of youths in an effort to further the foundation of empathy and friendship among the students built three years ago. Each student chose their own topics for the final projects, where they exhibited a set of 8 to 12 photos. The final exhibition is the result of stories that the students put their hearts into telling, and is a presentation of their passion and empathy. We are proud to showcase this work today. 
+  </p>
+</section>
 
-{{#each projects}}
-  {{> projects_preview child=this parent=..}}
-{{/each}}
+<section class="col-xs-12 col-sm-9 col-md-9">
+  {{#each projects}}
+    {{> projects_preview child=this parent=..}}
+  {{/each}}
+</section>
