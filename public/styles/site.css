@@ -41,6 +41,8 @@ nav li {
   list-style: none;
   font-size: 18px;
   line-height: 1.6;
+  display: inline;
+  padding: 10px;
 }
 
 .content {

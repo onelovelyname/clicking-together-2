@@ -1,4 +1,6 @@
-<h1>Camp {{year}}: {{title}}</h1>
+<div class="col-xs-12 col-sm-3 col-md-3">
+<h1>{{title}}</h1>
+
 {{#if_equal year 2016}} 
   {{#if student1}}
     <section class="inline-parent">
@@ -7,10 +9,12 @@
     </section>
   {{/if}}
 {{/if_equal}}
-
 <p>{{description}}</p>
 
-<div class="parent-photos">
+</div>
+
+
+<div class="col-xs-12 col-sm-9 col-md-9 parent-photos">
 {{#each this.matrix}}
     {{> matrix}}
 {{/each}}
