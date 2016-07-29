@@ -16,8 +16,24 @@ a {
   color: #CE5B1C;
 }
 
+h1.logo {
+  font-family: 'Covered By Your Grace', cursive;
+  margin: 10px 0;
+  align-self: center;
+}
+
+.header-menu {
+  align-self: center;
+}
+
+.header-parent {
+  display: flex;
+  justify-content: center;
+}
+
 a:hover {
     color: #CE5B1C;
+    text-decoration: none;
 }
 
 a:visited {
@@ -34,7 +50,8 @@ a:visited {
 
 nav ul {
   padding: 0px;
-  text-align: center;
+  text-align: right;
+  margin: 0px;
 }
 
 nav li {
@@ -128,7 +145,7 @@ nav li {
 
 .image-preview-img {
   object-fit: cover;
-  width: 98%;
+  width: 100%;
   height: 200px;
   border-radius: 5px;
 }
@@ -140,7 +157,7 @@ nav li {
   justify-content: center;
   position: absolute;
   z-index: 2;
-  width: 100%;
+  width: 98%;
   text-align: center;
   background-color: rgba(0, 0, 0, .2);
   border-radius: 5px;
