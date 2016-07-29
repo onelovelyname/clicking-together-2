@@ -1,3 +1,9 @@
   <div class="child-photo col-xs-12 col-sm-12 col-md-12 narrow">
-    <a href={{this.link}} title="{{this.caption}}"><img src={{this.link}} alt={{@key}} class="max-width project-photo"></a>
+    <a href={{this.link}} title="{{this.caption}}">
+    {{#if this.thumbnail}}
+      <img src={{this.thumbnail}} alt={{@key}} class="max-width project-photo">
+    {{else}}
+      <img src={{this.link}} alt={{@key}} class="max-width project-photo">
+    {{/if}}
+    </a>
   </div>
