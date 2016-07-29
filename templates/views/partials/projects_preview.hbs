@@ -1,5 +1,12 @@
-<div class="parent-preview col-xs-12 col-sm-4 col-md-4"><a href="/{{parent.camp}}/{{child.title}}">
-  <div class="image-preview-div"><img src={{child.cover.link}} alt={{child.title}} class="max-width image-preview-img"></div>
+<div class="parent-preview col-xs-12 col-sm-4 col-md-4">
+<a href="/{{parent.camp}}/{{child.title}}">
+  <div class="image-preview-div">
+    {{#if child.cover.thumbnail}}
+      <img src={{child.cover.thumbnail}} alt={{child.title}} class="max-width image-preview-img">
+    {{else}}
+      <img src={{child.cover.link}} alt={{child.title}} class="max-width image-preview-img">
+    {{/if}}
+  </div>
   <div class="link-preview"><h2 class="title">{{child.title}}</h2></div>
   </a>
 </div>
