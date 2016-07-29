@@ -3,8 +3,8 @@ html, body {
   font-family: 'Source Sans Pro', sans-serif !important;
 }
 
-h2.title {
-  margin: 0px;
+h3.title {
+  margin: 0px 10px;
   color: rgb(255,255,255);
 }
 
@@ -134,13 +134,13 @@ nav li {
   position: relative;
   height: 200px;
   padding: 0px;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .image-preview-div {
   position: absolute;
   z-index: 1;
-  width: 98%;
+  width: 97%;
 }
 
 .image-preview-img {
@@ -157,7 +157,7 @@ nav li {
   justify-content: center;
   position: absolute;
   z-index: 2;
-  width: 98%;
+  width: 97%;
   text-align: center;
   background-color: rgba(0, 0, 0, .2);
   border-radius: 5px;
