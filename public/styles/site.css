@@ -12,6 +12,10 @@ h2.index {
   padding: 0px 20px 20px 20px;
 }
 
+h3.bio {
+  margin: 10px 0px;
+}
+
 a {
   color: #CE5B1C;
 }
