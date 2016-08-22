@@ -86,7 +86,7 @@ nav li {
 
 .intro {
   width: 100%;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .5);
   position: absolute;
   left: 0px;
   z-index: 2;
@@ -98,7 +98,6 @@ nav li {
 
 .intro-text {
   padding: 10px 20px 30px 20px; 
-  background-color: rgba(0, 0, 0, .4);
   text-align: center;
 }
 
