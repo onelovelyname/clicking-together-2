@@ -18,7 +18,8 @@ exports = module.exports = function(req, res) {
 
         for (var key in project[0]) {
             if (project[0][key] && key.match(/\b(photo)([0-9]{1,2})\b/g)) {
-                var pos = parseInt(key.replace("photo", ""));
+                // we need to subtract 1 because arrays are 0-indexed and photos are 1-indexed
+                var pos = parseInt(key.replace("photo", "")) - 1;
                 matrix[pos] = project[0][key];
             }
         }
