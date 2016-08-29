@@ -5,9 +5,9 @@ var Project = new keystone.List('Project');
  
 Project.add({
     title: { type: String, initial: true, required: true, index: true },
-    year: { type: Number, required: true, initial: true },
+    year: { type: Number, required: true, wysiwg: true, height: 400, initial: true },
     cover: { type: Types.Relationship, ref: 'Photo', required: true, initial: true },
-    description: { type: Types.Textarea, initial: true },
+    description: { type: Types.Html, initial: true },
     photoCount: { type: Number, required: true, initial: true },
     student1: { type: Types.Relationship, ref: 'Student', initial: true },
     student2: { type: Types.Relationship, ref: 'Student', initial: true },
