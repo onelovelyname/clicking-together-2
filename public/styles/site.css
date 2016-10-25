@@ -111,8 +111,8 @@ nav li {
 }
 
 .student-photo {
-  width: 75px;
-  height: 75px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
 }
 
