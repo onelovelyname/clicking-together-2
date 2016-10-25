@@ -1,6 +1,6 @@
-html, body { 
+html, body {
   height:100%; 
-  font-family: 'Source Sans Pro', sans-serif !important;
+  font-family: 'Hind', sans-serif !important;
 }
 
 h3.title {
@@ -12,7 +12,11 @@ h2.index {
   padding: 0px 20px 20px 20px;
 }
 
-h3.bio {
+h4.bio {
+  margin: 10px 0px;
+}
+
+h5.bio {
   margin: 10px 0px;
 }
 
@@ -21,7 +25,7 @@ a {
 }
 
 h1.logo {
-  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Amatic SC', cursive;
   margin: 10px 0;
   align-self: center;
 }
@@ -67,7 +71,7 @@ nav li {
 }
 
 /*nav.header {
-  background-color: rgb(0,0,0)
+  background-color: #f6f6f6
 }*/
 
 .content {
