@@ -192,7 +192,7 @@ nav li {
   left: 0;
 }
 
-.resources-photo-resize {
+.photo-resize {
   max-width: 100%;
   height: auto;
   width: auto\9; /* IE8 */
