@@ -37,6 +37,7 @@ exports = module.exports = function(app) {
     app.get('/camp2013/:name', routes.views.projects);
     app.get('/camp2016/:name', routes.views.projects);
     app.get('/documentary', routes.views.documentary);
+    app.get('/apply', routes.views.apply);
     app.get('/resources', routes.views.resources);
     
 }
