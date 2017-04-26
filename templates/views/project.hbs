@@ -1,15 +1,15 @@
 <div class="col-xs-12 col-sm-3 col-md-3">
-<h1>{{title}}</h1>
+<h3>{{title}}</h3>
 
 {{#if_equal year 2016}} 
   {{#if student1}}
     <section class="inline-parent">
-      <div class="inline-child" style="margin-left: 5px;"><img src={{student1.photo}} class="student-photo"></div>
-      <div class="inline-child" style="margin-left: 5px;"><h2 class="student-header">{{student1.name}}</h2><p>{{student1.school}}</p><div>
+      <div class="inline-child"><img src={{student1.photo}} class="photo-resize"></div>
+      <div class="inline-child"><h4 class="student-header">{{student1.name}}</h4><p>{{student1.school}}</p><div>
     </section>
   {{/if}}
 {{/if_equal}}
-<p>{{description}}</p>
+<p align="justify">{{{description}}}</p>
 
 </div>
 
