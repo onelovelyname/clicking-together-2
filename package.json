@@ -13,6 +13,6 @@
     "npm": "3.10.x"
   },
   "scripts": {
-    "start": "web.js"
+    "start": "node web.js"
   }
 }
